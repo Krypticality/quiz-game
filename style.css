@@ -36,10 +36,12 @@ p {
   font-family: "Merienda";
   display: flex;
   justify-content: center;
+  align-self: center;
   border-color: #000000;
   border-style: outset;
   background: #ffffffff;
   color: #000000;
+  width: 80px;
   margin-left: 100px;
   margin-right: 100px;
   padding-top: 5px;
@@ -50,10 +52,12 @@ p {
   display: none;
   font-family: "Merienda";
   justify-content: center;
+  align-self: center;
   border-color: #000000;
   border-style: outset;
   background: #ffffffff;
   color: #000000;
+  width: 80px;
   margin-left: 100px;
   margin-right: 100px;
   padding-top: 5px;
@@ -67,8 +71,8 @@ button:hover {
   border-style: outset;
   background: #000000ff;
   color: #ffffff;
-  margin-left: 85px;
-  margin-right: 85px;
+  margin-left: 70px;
+  margin-right: 70px;
   padding-top: 5px;
   padding-bottom: 5px;
   transform: scale(1.2);
