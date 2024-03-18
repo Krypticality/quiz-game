@@ -1,0 +1,165 @@
+html {
+  background-color: #fff5e0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  border-color: #000000;
+  border-style: outset;
+  border-radius: 10px;
+  background: #000000ff;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 120%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-family: "Merienda";
+  display: flex;
+  justify-content: center;
+  border-color: #000000;
+  border-style: outset;
+  background: #ffffffff;
+  color: #000000;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button2 {
+  display: none;
+  font-family: "Merienda";
+  justify-content: center;
+  border-color: #000000;
+  border-style: outset;
+  background: #ffffffff;
+  color: #000000;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+button:hover {
+  display: flex;
+  justify-content: center;
+  border-color: #000000;
+  border-style: outset;
+  background: #000000ff;
+  color: #ffffff;
+  margin-left: 85px;
+  margin-right: 85px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transform: scale(1.2);
+  transition-duration: 0.25s;
+}
+
+input:hover {
+  background: #c8d4fe;
+  transform: scale(1.05);
+  transition-duration: 0.25s;
+}
+
+/* .heading {
+  font-family: "Merienda";
+  font-size: 80%;
+  border-color: #000000;
+  border-style: outset;
+  background: #fffeebff;
+  color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center; 
+}
+ */
+
+.overlay-text{
+  font-family: "Merienda";
+  font-size: 140%;
+  padding-top: 40px;
+  background-image: url("border.jpg");
+  background-size: 100% 110px;
+  background-repeat: no-repeat;
+  height:105px; 
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-family: "Merienda";
+  font-size: 100%;
+  border-color: #000000;
+  border-style: outset;
+  background: #ffffffff;
+  color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center; 
+  background-image: url("borger.jpg");
+}
+
+
+
+
+.questions {
+  font-family: "Merienda";
+  font-size: 75%;
+  border-radius: 10px;
+  background: #ffffffff;
+  color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  font-family: "Merienda";
+  font-size: 75%;
+  border-color: #000000;
+  border-style: outset;
+  background: #ebffecff;
+  color: #000000;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  margin-top: -35px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 300px;
+  align-self: center;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
